@@ -1,0 +1,6 @@
+wget https://git.io/vpn -O openvpn-install.sh && bash openvpn-install.sh
+openvpn scripti calistiktan sonra bir dosya you vericek ornegin : /root/client.ovpn 
+scp root@sunucuipadresi:/root/client.ovpn /root bu komut ile dosyayi kendi bilgisayarimiza aliyoruz
+openvpn --config client.ovpn ile vpn baglaniyoruz
+eger dns calismazsa /etc/dhcp/dhclient.conf ac prepedn domain name karesi sil aktif hale getir
+
