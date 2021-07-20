@@ -1,0 +1,2 @@
+steghide embed -cf a.jpg -ef gizli.txt > gizli.txt dosyasını a.jpg adlı resmin içine gizliyor.
+steghide extract -sf a.jpg > a.jpg dosyası içerisinden gizli.txt dosyasını çıkarıyor.
